@@ -14,7 +14,7 @@ if st.session_state.page == "Welcome":
     st.write("Welcome to your custom SAT prep platform! Choose an option below to get started.")
     st.write("")
     
-    if st.button("🧮 Math Test", use_container_width=True):
+    if st.button("📚 Math Test", use_container_width=True):
         set_page("Math Test")
         st.rerun()
 
@@ -26,7 +26,7 @@ if st.session_state.page == "Welcome":
 
 # ---------------- MATH TEST PAGE ----------------
 elif st.session_state.page == "Math Test":
-    st.title("🧮 SAT Math Practice")
+    st.title("📚 SAT Math Practice")
     
     questions = [
         {
