@@ -1,4 +1,27 @@
 import streamlit as st
+# Custom CSS for colors
+st.markdown("""
+    <style>
+    /* Change main background color */
+    .stApp {
+        background-color: #f5f7fa;
+    }
+    
+    /* Change button background and text color */
+    .stButton>button {
+        background-color: #4A90E2;
+        color: white;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    /* Change button hover color */
+    .stButton>button:hover {
+        background-color: #357ABD;
+        color: white;
+    }
+    </style>
+""", unsafe_allow_html=True)
 import os
 
 # Initialize page state
